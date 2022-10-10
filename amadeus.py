@@ -36,7 +36,7 @@ cache = None
 qcache = None
 chat_log = None
 botname = 'GPT3 Chat'
-username = 'Your name here'
+username = 'Types GPT3 MODEL'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
@@ -66,8 +66,8 @@ def start(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Types GPT3 MODEL'
-        username = 'typesdigital'
+        botname = 'GPT3 Chat'
+        username = 'Types GPT3 MODEL'
         update.message.reply_text('Hi')
         return 
     else:
@@ -93,16 +93,16 @@ def reset(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Makise Kurisu'
-        username = 'thewickedkarma'
+        botname = 'GPT3 Chat'
+        username = 'Types GPT3 MODEL'
         update.message.reply_text('Bot has been reset, send a message!')
         return
     if tim == 1:
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Makise Kurisu'
-        username = 'thewickedkarma'
+        botname = 'GPT3 Chat'
+        username = 'Types GPT3 MODEL'
         update.message.reply_text('Bot has been reset, send a message!')
         return 
     else:
@@ -128,8 +128,8 @@ def retry(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Makise Kurisu'
-        username = 'thewickedkarma'
+        botname = 'GPT3 Chat'
+        username = 'Types GPT3 MODEL'
         update.message.reply_text('Send a message!')
         return 
     else:
@@ -189,8 +189,8 @@ def wait(bot, update, botname, username, new):
                 cache = None
                 qcache = None
                 user = ""
-                username = 'thewickedkarma'
-                botname = 'Makise Kurisu'
+                username = 'Types GPT3 MODEL'
+                botname = 'GPT3 Chat'
                 update.message.reply_text('Timer has run down, bot has been reset to defaults.')
                 running = False
     else:
