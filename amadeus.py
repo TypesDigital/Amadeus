@@ -35,7 +35,7 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Makise Kurisu'
+botname = 'GPT3 Chat'
 username = 'Your name here'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
