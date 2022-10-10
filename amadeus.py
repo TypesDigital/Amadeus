@@ -66,8 +66,8 @@ def start(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Makise Kurisu'
-        username = 'thewickedkarma'
+        botname = 'Types GPT3 MODEL'
+        username = 'typesdigital'
         update.message.reply_text('Hi')
         return 
     else:
